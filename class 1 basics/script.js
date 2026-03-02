@@ -103,3 +103,21 @@ console.log("The Addition Of Two Numbers Is " ,num5 + num6 )
 let num7 = 12
 let num8 = 2
 console.log("The Division Of Two Numbers Is " ,num7 / num8 )
+
+// New Question
+var number1
+console.log("Value After Variable Declaration Is? ")
+number1 = 5
+console.log("Intial Value Of Number Is " + number1)
+number1++
+console.log("Value After Increment Is " + number1)
+number1 = number1 + 7
+console.log("Value After Addition Is " + number1)
+number1--
+console.log("Value After Decrement Is " + number1)
+console.log("The Remainder Is " + (number1 % 3))
+
+// New Question
+let moviePrice = 600
+let tickets = prompt("Ticket Price Is 600 \nHow Much Tickets You Want To Purchase? ")
+console.log("Your Total Bill Of Ticket Is : " + (moviePrice * tickets))
