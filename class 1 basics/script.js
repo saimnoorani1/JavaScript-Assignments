@@ -121,3 +121,72 @@ console.log("The Remainder Is " + (number1 % 3))
 let moviePrice = 600
 let tickets = prompt("Ticket Price Is 600 \nHow Much Tickets You Want To Purchase? ")
 console.log("Your Total Bill Of Ticket Is : " + (moviePrice * tickets))
+
+// New Question
+let table = prompt("Enter Which Number Of Table You Want: ")
+console.log("Table Of " + table)
+console.log(table * 1)
+console.log(table * 2)
+console.log(table * 3)
+console.log(table * 4)
+console.log(table * 5)
+console.log(table * 6)
+console.log(table * 7)
+console.log(table * 8)
+console.log(table * 9)
+console.log(table * 10)
+
+// New Question
+let celsiustemp = prompt("Write Celcius Temperature For Convert This Into Fahrenhiete : ")
+let fahresult = (celsiustemp * 9/5) + 32
+console.log("The Fahrenhiete Temperature Of This Celsius Temperature " + celsiustemp + " Is " + fahresult + "'F"  )
+
+let fahrentemp = prompt("Write Fahrenhiete Temperature For Convert This Into Celcius : ")
+let celresult = (fahrentemp - 32) * 5/9
+console.log("The Celsius Temperature Of This Fahrenhiete Temperature" + fahrentemp + " Is " + celresult + "'C" )
+
+// New Question
+console.log("Shopping Cart")
+let price1 = 650
+let price2 = 200
+let quantity1 = prompt("How Much Quantity You Want Of 1ST Item (Price Is 650) : ")
+let quantity2 = prompt("How Much Quantity You Want Of 2ND Item (Price Is 200) : ")
+console.log("Price Of 1st Item Is : " + price1)
+console.log("Quantity Of 1st Item Is : " + quantity1)
+console.log("Price Of 2nd Item Is : " + price2)
+console.log("Quantity Of 2nd Item Is : " + quantity2)
+console.log("Shipping Charges Is : 100 ")
+let finalBill = (price1*quantity1) + (price2*quantity2) + 100
+console.log("Your Total Bill According To Your Quantity Is : " + finalBill)
+
+// New Question
+let obtainedMarks = prompt("How Much You Obtained Marks?")
+let totalMarks = prompt("How Much Is Your Total Marks?")
+let result = obtainedMarks / totalMarks *100
+console.log("Your Percentage Is " + result)
+
+// New Question
+let saudiRiyal = prompt("How Much Saudi Riyal You Want To Convert In PKR (Exchnage Rates Is 74.53 )")
+let USDT = prompt("How Much US Dollars You Want To Convert In PKR (Exchnage Rates Is 279.01 )")
+let Pkr = (saudiRiyal * 74.53)+(USDT*279.01)
+console.log("Your Total PKR Is : " + Pkr)
+
+// New Question
+let birthYear = prompt("Enter Your Birth Year")
+let currentYear = prompt("Enter Current Year")
+let age= currentYear-birthYear
+console.log("Your Birth Year Is " + birthYear)
+console.log("Current Year Is " + currentYear)
+console.log("Your Age Is : " + age)
+
+// New Chapter
+let favSnack = prompt("Enter Name Of Your Favourite Snack")
+let currentAge = prompt("Tell Me Your Current Age")
+let maxAge = prompt("Tell Me Your Max Age")
+let amount = prompt("How Much You eat Your Fav Snacks In One Day")
+let remainDays = (maxAge-currentAge) * 365
+let totalSnacks = remainDays * amount
+console.log ("You Need " + totalSnacks + " " + favSnack + "For rest Of Your Life")
+
+// New Chapter
+console.log("Here Is Chapter 6 Source Codes")
